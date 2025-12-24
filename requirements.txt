@@ -1,0 +1,23 @@
+# === Core Application ===
+streamlit>=1.30.0          # Framework per la Dashboard Web
+pandas>=2.0.0              # Manipolazione dati (Dataframes)
+numpy>=1.24.0              # Calcolo numerico e vettoriale
+openpyxl>=3.1.0            # Lettura file Excel (.xlsx)
+requests>=2.31.0           # Download feed CISA/CVE dal governo
+
+# === Machine Learning & AI ===
+scikit-learn>=1.3.0        # SVM, Random Forest, Preprocessing, Metrics
+xgboost>=2.0.0             # Champion Model (Gradient Boosting)
+lightgbm>=4.0.0            # Modello alternativo (Gradient Boosting)
+tensorflow>=2.15.0         # Reti Neurali (MLP)
+shap>=0.44.0               # Explainable AI (XAI)
+
+# === Visualization & Reporting ===
+plotly>=5.18.0             # Grafici interattivi (Mappe, Sankey)
+matplotlib>=3.8.0          # Grafici statici (necessario per SHAP)
+seaborn>=0.13.0            # Heatmap statistiche avanzate (RQ3)
+kaleido>=0.2.1             # Engine per salvare i grafici Plotly come immagini (per il PDF)
+fpdf>=1.7.2                # Generazione Report PDF
+
+# === Network Science ===
+networkx>=3.0              # Teoria dei Grafi (RaaS Detection)
